@@ -1,1 +1,1 @@
-export default (condition: boolean): boolean => !condition;
+export default <T = boolean>(condition: T): boolean => !condition;
